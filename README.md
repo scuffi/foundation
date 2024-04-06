@@ -29,7 +29,13 @@ This will install all the project dependencies, and set up the pre-commit hooks 
 This template has features to make jumping into development a little faster, for example:
 
 - Basic project structure of folders and config files
-- Pre-commit hooks for everything you'll need to ensure code quality
+- Pre-commit hooks for everything you'll need to ensure code quality:
+  - `isort` -> Python import sorting
+  - `talisman` -> Check for private keys/secrets in code
+  - `ruff` -> Python linting & formatting
+  - `bandit` -> Check for common security issues
+  - `clean-dotenv` -> Create a `.env.example` file containing all keys from private `.env`
+  - `mypy` -> Static type checking
 - Makefile providing utility commands to speed up development
 - Bumpversion to make updating project versions swift and easy
 - pip-compile for better dependencies
