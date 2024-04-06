@@ -11,7 +11,7 @@ lint:
 
 test:
 	@echo "Testing..."
-	@pytest
+	@pytest --cov=project/ testing/
 
 format:
 	@echo "Formatting..."
