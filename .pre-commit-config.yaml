@@ -28,13 +28,13 @@ repos:
   - repo: https://github.com/PyCQA/bandit
     rev: v1.7.8
     hooks:
-    - id: bandit
+      - id: bandit
   - repo: https://github.com/hija/clean-dotenv
     rev: v0.0.6
     hooks:
-    -   id: clean-dotenv
+      - id: clean-dotenv
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.9.0  # Use the sha / tag you want to point at
+    rev: v1.9.0 # Use the sha / tag you want to point at
     hooks:
-    -   id: mypy
+      - id: mypy
         # args: [--strict, --ignore-missing-imports] # ? To change running arguments, specify here
