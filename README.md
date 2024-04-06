@@ -1,4 +1,4 @@
-<a href="https://github.com/new?template_name=python-base&template_owner=scuffi">
+<a href="https://github.com/new?template_name=foundation&template_owner=scuffi">
   <img src="https://img.shields.io/badge/use%20template-light_green?style=for-the-badge&logo=github">
 </a>
 
@@ -12,7 +12,7 @@ This template is agnostic of Python project type (API, scheduled service, etc), 
 
 ## How to use
 
-To use this template for a project simply click the use template button above. [(Or if you're lazy just click here)](https://github.com/new?template_name=python-base&template_owner=scuffi)
+To use this template for a project simply click the use template button above. [(Or if you're lazy just click here)](https://github.com/new?template_name=foundation&template_owner=scuffi)
 
 The configure your new project as you want, then open the new project in your chosen editor.
 
