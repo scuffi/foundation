@@ -46,6 +46,9 @@ The Make commands are as follows (Use in format `make {command}`):
 - `format` -> Format the project using Ruff formatter
 - `test` -> Run all tests in the `/tests` directory
 - `compile-requirements` & `freeze` -> Use pip-compile to freeze the requirements into `requirements.txt`
+- `build` -> Build the `docker-compose.yml` images
+- `up` -> Spin up the `docker-compose.yml` images
+- `docker` -> Build & spin up the `docker-compose.yml` images
 
 ## Contributing
 

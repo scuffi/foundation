@@ -23,3 +23,15 @@ compile-requirements:
 	@pip-compile --output-file=requirements.txt requirements.in
 
 freeze: compile-requirements
+
+build:
+	@echo "Building docker image..."
+	@docker-compose build
+
+up:
+	@echo "Starting docker image..."
+	@docker-compose up
+
+docker:
+	@echo "Running docker image..."
+	@docker-compose up --build
