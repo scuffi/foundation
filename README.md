@@ -8,11 +8,11 @@ This project serves as an essential foundation for Python projects, offering a s
 
 *Note: This project will have stuff missing, it may not fit requirements to be a base for every project, but it's good enough for me :D*
 
-## Installation
+## How to use
 
-Use this project as a template for your next project, by clicking the use template button above.
+To use this template for a project simply click the use template button above. [(Or if you're lazy just click here)](https://github.com/new?template_name=python-base&template_owner=scuffi)
 
-Once you have your own version of this template for your project you can setup your local environment.
+The configure your new project as you want, then open the new project in your chosen editor.
 
 To setup your environment, create a virtual environment using your chosen Python version, then run:
 
