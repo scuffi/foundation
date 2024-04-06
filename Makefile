@@ -15,7 +15,7 @@ test:
 
 format:
 	@echo "Formatting..."
-	@pre-commit run --all-files
+	@ruff format .
 
 compile-requirements:
 	@echo "Compiling requirements..."

@@ -53,6 +53,8 @@ pyyaml==6.0.1
     # via
     #   -r requirements.in
     #   pre-commit
+ruff==0.3.5
+    # via -r requirements.in
 virtualenv==20.25.1
     # via
     #   -r requirements.in
