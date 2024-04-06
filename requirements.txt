@@ -8,6 +8,12 @@ build==1.2.1
     # via
     #   -r requirements.in
     #   pip-tools
+bump2version==1.0.1
+    # via
+    #   -r requirements.in
+    #   bumpversion
+bumpversion==0.6.0
+    # via -r requirements.in
 cfgv==3.4.0
     # via
     #   -r requirements.in
