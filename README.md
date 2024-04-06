@@ -6,7 +6,7 @@
 
 This template serves as an essential foundation for Python projects, offering a streamlined configuration and setup. Designed to expedite the initiation of new projects, it provides a minimal yet comprehensive template, significantly reducing the time required for project commencement.
 
-This template is agnostic of Python project type (API, scheduled service, etc), and does not include any functionality to aid specifically to one of these cases. Instead, this template provides functionality to ensure code quality, and utility functionality to make repeated tasks easier and faster.
+This template is designed to be versatile across various Python project types (such as APIs, scheduled services, etc.), without favoring any specific use case. Its focus lies in enhancing code quality and offering utility functions to streamline and expedite repetitive tasks.
 
 *Note: This project will have stuff missing, it may not fit requirements to be a base for every project, but it's good enough for me :D*
 
