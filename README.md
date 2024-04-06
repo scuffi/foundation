@@ -34,7 +34,7 @@ This template has features to make jumping into development a little faster, for
 - Bumpversion to make updating project versions swift and easy
 - pip-compile for better dependencies
 - Dependabot setup for dependency updates
-- [TODO] Devcontainer for jumping straight into coding
+- [TODO] Devcontainer configuration for all-in-one VSCode environment
 - [TODO] Workflow configurations
 
 ### Makefile
@@ -47,8 +47,8 @@ The Make commands are as follows (Use in format `make {command}`):
 - `test` -> Run all tests in the `/tests` directory
 - `compile-requirements` & `freeze` -> Use pip-compile to freeze the requirements into `requirements.txt`
 - `build` -> Build the `docker-compose.yml` images
-- `up` -> Spin up the `docker-compose.yml` images
-- `docker` -> Build & spin up the `docker-compose.yml` images
+- `up` -> Spin up the `docker-compose.yml` containers
+- `docker` -> Build & spin up the `docker-compose.yml` containers
 
 ## Contributing
 
